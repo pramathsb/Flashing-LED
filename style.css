@@ -1,0 +1,61 @@
+body {
+    background: #222;
+    color: #aaa;
+    font-family: monospace;
+    text-align: center;
+  }
+  
+  select {
+    margin: auto;
+    display: block;
+  }
+  
+  label {
+    margin: 10px 0;
+    display: block;
+  }
+  
+  .led {
+    width: 50px;
+    height: 8px;
+    margin: 60px auto;
+    border-radius: 6px;
+    background: #aaa;
+    transition: all .08s;
+  }
+  
+  .led.active[data-color="red"] {
+    background: red;
+    box-shadow: 0 0 20px 3px red;
+  }
+  
+  .led.active[data-color="blue"] {
+    background: blue;
+    box-shadow: 0 0 20px 3px blue;
+  }
+  
+  .led.active[data-color="green"] {
+    background: lime;
+    box-shadow: 0 0 20px 3px lime;
+  }
+  
+  .led.active[data-color="white"] {
+    background: white;
+    box-shadow: 0 0 20px 3px white;
+  }
+  
+  .led.active[data-color="cyan"] {
+    background: cyan;
+    box-shadow: 0 0 20px 3px cyan;
+  }
+  
+  .led.active[data-color="magenta"] {
+    background: magenta;
+    box-shadow: 0 0 20px 3px magenta;
+  }
+  
+  .led.dom {
+    background: orange;
+    box-shadow: 0 0 20px 3px orange;
+  }
+  

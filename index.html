@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Flashing LED</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <h1>Online status LED Indicator</h1>
+  <p>LED Light flashes 3 times every 8 seconds.</p>
+  
+  <div class="led" id="led" data-color="green"></div>
+  
+  <label for="color">Choose Color</label>
+  <select name="color" id="color">
+    <option value="green">Green</option>      
+    <option value="blue">Blue</option>
+    <option value="white">White</option>
+    <option value="red">Red</option>
+    <option value="cyan">Cyan</option>
+    <option value="magenta">Majenta</option>
+  </select>
+  
+
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
